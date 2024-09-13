@@ -1,4 +1,4 @@
-# I LOVE SPACELIFT #
+# I LOVE SPACELIFT # #AWS EXAMPLE#
 
 provider "aws" {
   region = var.aws_region
