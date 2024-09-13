@@ -1,3 +1,5 @@
+# I LOVE SPACELIFT #
+
 provider "aws" {
   region = var.aws_region
 }
