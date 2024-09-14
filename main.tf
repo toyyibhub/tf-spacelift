@@ -30,6 +30,19 @@ resource "aws_s3_bucket" "those" {
 
   tags = {
     Name        = "toyyib-spacelift-003"
+    Team        = "Devops"
+    Owner        = "Zoro"
+    Environment = var.environment
+  }
+}
+
+resource "aws_s3_bucket" "them" {
+  bucket = "toyyib-spacelift-004"
+
+  tags = {
+    Name        = "security-spacelift-004"
+    Team        = "Cloudsec"
+    Owner        = "Grainger"
     Environment = var.environment
   }
 }
