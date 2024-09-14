@@ -9,6 +9,7 @@ resource "aws_s3_bucket" "this" {
 
   tags = {
     Name        = "toyyib-spacelift-001"
+    Team        = "Devops"
     Environment = var.environment
   }
 }
@@ -18,6 +19,7 @@ resource "aws_s3_bucket" "that" {
 
   tags = {
     Name        = "toyyib-spacelift-002"
+    Team        = "Devops"
     Environment = var.environment
   }
 }
