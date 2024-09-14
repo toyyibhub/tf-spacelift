@@ -46,3 +46,14 @@ resource "aws_s3_bucket" "them" {
     Environment = var.environment
   }
 }
+
+resource "aws_s3_bucket" "them" {
+  bucket = "toyyib-spacelift-005"
+
+  tags = {
+    Name        = "security-spacelift-005"
+    Team        = "Cloudsec"
+    Owner        = "Grainger"
+    Environment = var.environment
+  }
+}
