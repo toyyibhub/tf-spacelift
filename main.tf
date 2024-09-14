@@ -4,11 +4,11 @@ provider "aws" {
   region = var.aws_region
 }
 
-resource "aws_s3_bucket" "this" {
-  bucket = "toyyib-spacelift-001"
+resource "aws_s3_bucket" "thoses" {
+  bucket = "toyyib-spacelift-006"
 
   tags = {
-    Name        = "toyyib-spacelift-001"
+    Name        = "toyyib-spacelift-006"
     Environment = var.environment
   }
 }
