@@ -12,3 +12,12 @@ resource "aws_s3_bucket" "this" {
     Environment = var.environment
   }
 }
+
+resource "aws_s3_bucket" "that" {
+  bucket = "toyyib-spacelift-002"
+
+  tags = {
+    Name        = "toyyib-spacelift-002"
+    Environment = var.environment
+  }
+}
