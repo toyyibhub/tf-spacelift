@@ -47,7 +47,7 @@ resource "aws_s3_bucket" "them" {
   }
 }
 
-resource "aws_s3_bucket" "them" {
+resource "aws_s3_bucket" "thems" {
   bucket = "toyyib-spacelift-005"
 
   tags = {
